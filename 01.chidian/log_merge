@@ -1,0 +1,371 @@
+读取染色体长度文件...
+✅ 成功读取 25 条染色体信息
+
+分组BW文件...
+=== 细胞类型分组结果 ===
+Endothelial: 8个重复文件
+  - Endothelial_1.bw
+  - Endothelial_2.bw
+  - Endothelial_3.bw
+  - Endothelial_4.bw
+  - Endothelial_5.bw
+  - Endothelial_6.bw
+  - Endothelial_7.bw
+  - Endothelial_8.bw
+Epithelial: 16个重复文件
+  - Epithelial_10.bw
+  - Epithelial_11.bw
+  - Epithelial_12.bw
+  - Epithelial_13.bw
+  - Epithelial_14.bw
+  - Epithelial_15.bw
+  - Epithelial_16.bw
+  - Epithelial_1.bw
+  - Epithelial_2.bw
+  - Epithelial_3.bw
+  - Epithelial_4.bw
+  - Epithelial_5.bw
+  - Epithelial_6.bw
+  - Epithelial_7.bw
+  - Epithelial_8.bw
+  - Epithelial_9.bw
+Erythroid: 1个重复文件
+  - Erythroid_1.bw
+Hepatocyte: 1个重复文件
+  - Hepatocyte_1.bw
+Immune: 12个重复文件
+  - Immune_10.bw
+  - Immune_11.bw
+  - Immune_12.bw
+  - Immune_1.bw
+  - Immune_2.bw
+  - Immune_3.bw
+  - Immune_4.bw
+  - Immune_5.bw
+  - Immune_6.bw
+  - Immune_7.bw
+  - Immune_8.bw
+  - Immune_9.bw
+Muscle: 3个重复文件
+  - Muscle_1.bw
+  - Muscle_2.bw
+  - Muscle_3.bw
+Neural: 16个重复文件
+  - Neural_10.bw
+  - Neural_11.bw
+  - Neural_12.bw
+  - Neural_13.bw
+  - Neural_14.bw
+  - Neural_15.bw
+  - Neural_16.bw
+  - Neural_1.bw
+  - Neural_2.bw
+  - Neural_3.bw
+  - Neural_4.bw
+  - Neural_5.bw
+  - Neural_6.bw
+  - Neural_7.bw
+  - Neural_8.bw
+  - Neural_9.bw
+Reproductive: 1个重复文件
+  - Reproductive_1.bw
+Secretory: 3个重复文件
+  - Secretory_1.bw
+  - Secretory_2.bw
+  - Secretory_3.bw
+Stromal: 10个重复文件
+  - Stromal_10.bw
+  - Stromal_1.bw
+  - Stromal_2.bw
+  - Stromal_3.bw
+  - Stromal_4.bw
+  - Stromal_5.bw
+  - Stromal_6.bw
+  - Stromal_7.bw
+  - Stromal_8.bw
+  - Stromal_9.bw
+========================
+
+开始整合...
+处理 Endothelial - Chr01 (长度: 53736897bp)
+处理 Endothelial - Chr02 (长度: 53007317bp)
+处理 Endothelial - Chr03 (长度: 52524049bp)
+处理 Endothelial - Chr04 (长度: 52478662bp)
+处理 Endothelial - Chr05 (长度: 50330081bp)
+处理 Endothelial - Chr06 (长度: 50044055bp)
+处理 Endothelial - Chr07 (长度: 49122225bp)
+处理 Endothelial - Chr08 (长度: 48070050bp)
+处理 Endothelial - Chr09 (长度: 46462825bp)
+处理 Endothelial - Chr10 (长度: 46206632bp)
+处理 Endothelial - Chr11 (长度: 46067422bp)
+处理 Endothelial - Chr12 (长度: 46028906bp)
+处理 Endothelial - Chr13 (长度: 45677884bp)
+处理 Endothelial - Chr14 (长度: 45222162bp)
+处理 Endothelial - Chr15 (长度: 45116380bp)
+处理 Endothelial - Chr16 (长度: 45021781bp)
+处理 Endothelial - Chr17 (长度: 44981524bp)
+处理 Endothelial - Chr18 (长度: 43126265bp)
+处理 Endothelial - Chr19 (长度: 41713854bp)
+处理 Endothelial - Chr20 (长度: 40445100bp)
+处理 Endothelial - Chr21 (长度: 39359364bp)
+处理 Endothelial - Chr22 (长度: 38616317bp)
+处理 Endothelial - Chr23 (长度: 35838671bp)
+处理 Endothelial - Chr24 (长度: 25806605bp)
+处理 Endothelial - ContigUN (长度: 50721182bp)
+✅ Endothelial 整合完成：
+  - bedGraph: ./Endothelial.bedGraph
+  - BW: ./Endothelial.bw
+处理 Epithelial - Chr01 (长度: 53736897bp)
+处理 Epithelial - Chr02 (长度: 53007317bp)
+处理 Epithelial - Chr03 (长度: 52524049bp)
+处理 Epithelial - Chr04 (长度: 52478662bp)
+处理 Epithelial - Chr05 (长度: 50330081bp)
+处理 Epithelial - Chr06 (长度: 50044055bp)
+处理 Epithelial - Chr07 (长度: 49122225bp)
+处理 Epithelial - Chr08 (长度: 48070050bp)
+处理 Epithelial - Chr09 (长度: 46462825bp)
+处理 Epithelial - Chr10 (长度: 46206632bp)
+处理 Epithelial - Chr11 (长度: 46067422bp)
+处理 Epithelial - Chr12 (长度: 46028906bp)
+处理 Epithelial - Chr13 (长度: 45677884bp)
+处理 Epithelial - Chr14 (长度: 45222162bp)
+处理 Epithelial - Chr15 (长度: 45116380bp)
+处理 Epithelial - Chr16 (长度: 45021781bp)
+处理 Epithelial - Chr17 (长度: 44981524bp)
+处理 Epithelial - Chr18 (长度: 43126265bp)
+处理 Epithelial - Chr19 (长度: 41713854bp)
+处理 Epithelial - Chr20 (长度: 40445100bp)
+处理 Epithelial - Chr21 (长度: 39359364bp)
+处理 Epithelial - Chr22 (长度: 38616317bp)
+处理 Epithelial - Chr23 (长度: 35838671bp)
+处理 Epithelial - Chr24 (长度: 25806605bp)
+处理 Epithelial - ContigUN (长度: 50721182bp)
+✅ Epithelial 整合完成：
+  - bedGraph: ./Epithelial.bedGraph
+  - BW: ./Epithelial.bw
+处理 Erythroid - Chr01 (长度: 53736897bp)
+处理 Erythroid - Chr02 (长度: 53007317bp)
+处理 Erythroid - Chr03 (长度: 52524049bp)
+处理 Erythroid - Chr04 (长度: 52478662bp)
+处理 Erythroid - Chr05 (长度: 50330081bp)
+处理 Erythroid - Chr06 (长度: 50044055bp)
+处理 Erythroid - Chr07 (长度: 49122225bp)
+处理 Erythroid - Chr08 (长度: 48070050bp)
+处理 Erythroid - Chr09 (长度: 46462825bp)
+处理 Erythroid - Chr10 (长度: 46206632bp)
+处理 Erythroid - Chr11 (长度: 46067422bp)
+处理 Erythroid - Chr12 (长度: 46028906bp)
+处理 Erythroid - Chr13 (长度: 45677884bp)
+处理 Erythroid - Chr14 (长度: 45222162bp)
+处理 Erythroid - Chr15 (长度: 45116380bp)
+处理 Erythroid - Chr16 (长度: 45021781bp)
+处理 Erythroid - Chr17 (长度: 44981524bp)
+处理 Erythroid - Chr18 (长度: 43126265bp)
+处理 Erythroid - Chr19 (长度: 41713854bp)
+处理 Erythroid - Chr20 (长度: 40445100bp)
+处理 Erythroid - Chr21 (长度: 39359364bp)
+处理 Erythroid - Chr22 (长度: 38616317bp)
+处理 Erythroid - Chr23 (长度: 35838671bp)
+处理 Erythroid - Chr24 (长度: 25806605bp)
+处理 Erythroid - ContigUN (长度: 50721182bp)
+✅ Erythroid 整合完成：
+  - bedGraph: ./Erythroid.bedGraph
+  - BW: ./Erythroid.bw
+处理 Hepatocyte - Chr01 (长度: 53736897bp)
+处理 Hepatocyte - Chr02 (长度: 53007317bp)
+处理 Hepatocyte - Chr03 (长度: 52524049bp)
+处理 Hepatocyte - Chr04 (长度: 52478662bp)
+处理 Hepatocyte - Chr05 (长度: 50330081bp)
+处理 Hepatocyte - Chr06 (长度: 50044055bp)
+处理 Hepatocyte - Chr07 (长度: 49122225bp)
+处理 Hepatocyte - Chr08 (长度: 48070050bp)
+处理 Hepatocyte - Chr09 (长度: 46462825bp)
+处理 Hepatocyte - Chr10 (长度: 46206632bp)
+处理 Hepatocyte - Chr11 (长度: 46067422bp)
+处理 Hepatocyte - Chr12 (长度: 46028906bp)
+处理 Hepatocyte - Chr13 (长度: 45677884bp)
+处理 Hepatocyte - Chr14 (长度: 45222162bp)
+处理 Hepatocyte - Chr15 (长度: 45116380bp)
+处理 Hepatocyte - Chr16 (长度: 45021781bp)
+处理 Hepatocyte - Chr17 (长度: 44981524bp)
+处理 Hepatocyte - Chr18 (长度: 43126265bp)
+处理 Hepatocyte - Chr19 (长度: 41713854bp)
+处理 Hepatocyte - Chr20 (长度: 40445100bp)
+处理 Hepatocyte - Chr21 (长度: 39359364bp)
+处理 Hepatocyte - Chr22 (长度: 38616317bp)
+处理 Hepatocyte - Chr23 (长度: 35838671bp)
+处理 Hepatocyte - Chr24 (长度: 25806605bp)
+处理 Hepatocyte - ContigUN (长度: 50721182bp)
+✅ Hepatocyte 整合完成：
+  - bedGraph: ./Hepatocyte.bedGraph
+  - BW: ./Hepatocyte.bw
+处理 Immune - Chr01 (长度: 53736897bp)
+处理 Immune - Chr02 (长度: 53007317bp)
+处理 Immune - Chr03 (长度: 52524049bp)
+处理 Immune - Chr04 (长度: 52478662bp)
+处理 Immune - Chr05 (长度: 50330081bp)
+处理 Immune - Chr06 (长度: 50044055bp)
+处理 Immune - Chr07 (长度: 49122225bp)
+处理 Immune - Chr08 (长度: 48070050bp)
+处理 Immune - Chr09 (长度: 46462825bp)
+处理 Immune - Chr10 (长度: 46206632bp)
+处理 Immune - Chr11 (长度: 46067422bp)
+处理 Immune - Chr12 (长度: 46028906bp)
+处理 Immune - Chr13 (长度: 45677884bp)
+处理 Immune - Chr14 (长度: 45222162bp)
+处理 Immune - Chr15 (长度: 45116380bp)
+处理 Immune - Chr16 (长度: 45021781bp)
+处理 Immune - Chr17 (长度: 44981524bp)
+处理 Immune - Chr18 (长度: 43126265bp)
+处理 Immune - Chr19 (长度: 41713854bp)
+处理 Immune - Chr20 (长度: 40445100bp)
+处理 Immune - Chr21 (长度: 39359364bp)
+处理 Immune - Chr22 (长度: 38616317bp)
+处理 Immune - Chr23 (长度: 35838671bp)
+处理 Immune - Chr24 (长度: 25806605bp)
+处理 Immune - ContigUN (长度: 50721182bp)
+✅ Immune 整合完成：
+  - bedGraph: ./Immune.bedGraph
+  - BW: ./Immune.bw
+处理 Muscle - Chr01 (长度: 53736897bp)
+处理 Muscle - Chr02 (长度: 53007317bp)
+处理 Muscle - Chr03 (长度: 52524049bp)
+处理 Muscle - Chr04 (长度: 52478662bp)
+处理 Muscle - Chr05 (长度: 50330081bp)
+处理 Muscle - Chr06 (长度: 50044055bp)
+处理 Muscle - Chr07 (长度: 49122225bp)
+处理 Muscle - Chr08 (长度: 48070050bp)
+处理 Muscle - Chr09 (长度: 46462825bp)
+处理 Muscle - Chr10 (长度: 46206632bp)
+处理 Muscle - Chr11 (长度: 46067422bp)
+处理 Muscle - Chr12 (长度: 46028906bp)
+处理 Muscle - Chr13 (长度: 45677884bp)
+处理 Muscle - Chr14 (长度: 45222162bp)
+处理 Muscle - Chr15 (长度: 45116380bp)
+处理 Muscle - Chr16 (长度: 45021781bp)
+处理 Muscle - Chr17 (长度: 44981524bp)
+处理 Muscle - Chr18 (长度: 43126265bp)
+处理 Muscle - Chr19 (长度: 41713854bp)
+处理 Muscle - Chr20 (长度: 40445100bp)
+处理 Muscle - Chr21 (长度: 39359364bp)
+处理 Muscle - Chr22 (长度: 38616317bp)
+处理 Muscle - Chr23 (长度: 35838671bp)
+处理 Muscle - Chr24 (长度: 25806605bp)
+处理 Muscle - ContigUN (长度: 50721182bp)
+✅ Muscle 整合完成：
+  - bedGraph: ./Muscle.bedGraph
+  - BW: ./Muscle.bw
+处理 Neural - Chr01 (长度: 53736897bp)
+处理 Neural - Chr02 (长度: 53007317bp)
+处理 Neural - Chr03 (长度: 52524049bp)
+处理 Neural - Chr04 (长度: 52478662bp)
+处理 Neural - Chr05 (长度: 50330081bp)
+处理 Neural - Chr06 (长度: 50044055bp)
+处理 Neural - Chr07 (长度: 49122225bp)
+处理 Neural - Chr08 (长度: 48070050bp)
+处理 Neural - Chr09 (长度: 46462825bp)
+处理 Neural - Chr10 (长度: 46206632bp)
+处理 Neural - Chr11 (长度: 46067422bp)
+处理 Neural - Chr12 (长度: 46028906bp)
+处理 Neural - Chr13 (长度: 45677884bp)
+处理 Neural - Chr14 (长度: 45222162bp)
+处理 Neural - Chr15 (长度: 45116380bp)
+处理 Neural - Chr16 (长度: 45021781bp)
+处理 Neural - Chr17 (长度: 44981524bp)
+处理 Neural - Chr18 (长度: 43126265bp)
+处理 Neural - Chr19 (长度: 41713854bp)
+处理 Neural - Chr20 (长度: 40445100bp)
+处理 Neural - Chr21 (长度: 39359364bp)
+处理 Neural - Chr22 (长度: 38616317bp)
+处理 Neural - Chr23 (长度: 35838671bp)
+处理 Neural - Chr24 (长度: 25806605bp)
+处理 Neural - ContigUN (长度: 50721182bp)
+✅ Neural 整合完成：
+  - bedGraph: ./Neural.bedGraph
+  - BW: ./Neural.bw
+处理 Reproductive - Chr01 (长度: 53736897bp)
+处理 Reproductive - Chr02 (长度: 53007317bp)
+处理 Reproductive - Chr03 (长度: 52524049bp)
+处理 Reproductive - Chr04 (长度: 52478662bp)
+处理 Reproductive - Chr05 (长度: 50330081bp)
+处理 Reproductive - Chr06 (长度: 50044055bp)
+处理 Reproductive - Chr07 (长度: 49122225bp)
+处理 Reproductive - Chr08 (长度: 48070050bp)
+处理 Reproductive - Chr09 (长度: 46462825bp)
+处理 Reproductive - Chr10 (长度: 46206632bp)
+处理 Reproductive - Chr11 (长度: 46067422bp)
+处理 Reproductive - Chr12 (长度: 46028906bp)
+处理 Reproductive - Chr13 (长度: 45677884bp)
+处理 Reproductive - Chr14 (长度: 45222162bp)
+处理 Reproductive - Chr15 (长度: 45116380bp)
+处理 Reproductive - Chr16 (长度: 45021781bp)
+处理 Reproductive - Chr17 (长度: 44981524bp)
+处理 Reproductive - Chr18 (长度: 43126265bp)
+处理 Reproductive - Chr19 (长度: 41713854bp)
+处理 Reproductive - Chr20 (长度: 40445100bp)
+处理 Reproductive - Chr21 (长度: 39359364bp)
+处理 Reproductive - Chr22 (长度: 38616317bp)
+处理 Reproductive - Chr23 (长度: 35838671bp)
+处理 Reproductive - Chr24 (长度: 25806605bp)
+处理 Reproductive - ContigUN (长度: 50721182bp)
+✅ Reproductive 整合完成：
+  - bedGraph: ./Reproductive.bedGraph
+  - BW: ./Reproductive.bw
+处理 Secretory - Chr01 (长度: 53736897bp)
+处理 Secretory - Chr02 (长度: 53007317bp)
+处理 Secretory - Chr03 (长度: 52524049bp)
+处理 Secretory - Chr04 (长度: 52478662bp)
+处理 Secretory - Chr05 (长度: 50330081bp)
+处理 Secretory - Chr06 (长度: 50044055bp)
+处理 Secretory - Chr07 (长度: 49122225bp)
+处理 Secretory - Chr08 (长度: 48070050bp)
+处理 Secretory - Chr09 (长度: 46462825bp)
+处理 Secretory - Chr10 (长度: 46206632bp)
+处理 Secretory - Chr11 (长度: 46067422bp)
+处理 Secretory - Chr12 (长度: 46028906bp)
+处理 Secretory - Chr13 (长度: 45677884bp)
+处理 Secretory - Chr14 (长度: 45222162bp)
+处理 Secretory - Chr15 (长度: 45116380bp)
+处理 Secretory - Chr16 (长度: 45021781bp)
+处理 Secretory - Chr17 (长度: 44981524bp)
+处理 Secretory - Chr18 (长度: 43126265bp)
+处理 Secretory - Chr19 (长度: 41713854bp)
+处理 Secretory - Chr20 (长度: 40445100bp)
+处理 Secretory - Chr21 (长度: 39359364bp)
+处理 Secretory - Chr22 (长度: 38616317bp)
+处理 Secretory - Chr23 (长度: 35838671bp)
+处理 Secretory - Chr24 (长度: 25806605bp)
+处理 Secretory - ContigUN (长度: 50721182bp)
+✅ Secretory 整合完成：
+  - bedGraph: ./Secretory.bedGraph
+  - BW: ./Secretory.bw
+处理 Stromal - Chr01 (长度: 53736897bp)
+处理 Stromal - Chr02 (长度: 53007317bp)
+处理 Stromal - Chr03 (长度: 52524049bp)
+处理 Stromal - Chr04 (长度: 52478662bp)
+处理 Stromal - Chr05 (长度: 50330081bp)
+处理 Stromal - Chr06 (长度: 50044055bp)
+处理 Stromal - Chr07 (长度: 49122225bp)
+处理 Stromal - Chr08 (长度: 48070050bp)
+处理 Stromal - Chr09 (长度: 46462825bp)
+处理 Stromal - Chr10 (长度: 46206632bp)
+处理 Stromal - Chr11 (长度: 46067422bp)
+处理 Stromal - Chr12 (长度: 46028906bp)
+处理 Stromal - Chr13 (长度: 45677884bp)
+处理 Stromal - Chr14 (长度: 45222162bp)
+处理 Stromal - Chr15 (长度: 45116380bp)
+处理 Stromal - Chr16 (长度: 45021781bp)
+处理 Stromal - Chr17 (长度: 44981524bp)
+处理 Stromal - Chr18 (长度: 43126265bp)
+处理 Stromal - Chr19 (长度: 41713854bp)
+处理 Stromal - Chr20 (长度: 40445100bp)
+处理 Stromal - Chr21 (长度: 39359364bp)
+处理 Stromal - Chr22 (长度: 38616317bp)
+处理 Stromal - Chr23 (长度: 35838671bp)
+处理 Stromal - Chr24 (长度: 25806605bp)
+处理 Stromal - ContigUN (长度: 50721182bp)
+✅ Stromal 整合完成：
+  - bedGraph: ./Stromal.bedGraph
+  - BW: ./Stromal.bw
+
+🎉 所有细胞类型整合完成！输出目录： ./

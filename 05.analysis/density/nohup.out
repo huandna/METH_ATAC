@@ -1,0 +1,93 @@
+📖 正在读取数据: genome_ml_dataset.bed
+📊 数据统计:
+  总记录数: 108500515
+  染色体数量: 24
+  信号范围: 0.0000 - 0.7127
+  信号均值: 0.0171
+  信号中位数: 0.0131
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/ATAC_distribution.pdf
+✅ 已保存: signal_distribution/ATAC_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: genome_ml_dataset.bed
+📊 数据统计:
+  总记录数: 108500515
+  染色体数量: 24
+  信号范围: 0.0000 - 0.4600
+  信号均值: 0.0015
+  信号中位数: 0.0000
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/Methylation_distribution.pdf
+✅ 已保存: signal_distribution/Methylation_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: intestine.CG.bed
+📊 数据统计:
+  总记录数: 1923196
+  染色体数量: 24
+  信号范围: 0.0500 - 0.4600
+  信号均值: 0.0828
+  信号中位数: 0.0856
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/raw_meth_distribution.pdf
+✅ 已保存: signal_distribution/raw_meth_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: genome_ml_dataset.bed
+📊 数据统计:
+  总记录数: 3932770
+  染色体数量: 24
+  信号范围: 0.0500 - 0.7127
+  信号均值: 0.0672
+  信号中位数: 0.0609
+  最小信号值阈值: 0.05
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/ATAC_distribution.pdf
+✅ 已保存: signal_distribution/ATAC_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: genome_ml_dataset.bed
+📊 数据统计:
+  总记录数: 1923196
+  染色体数量: 24
+  信号范围: 0.0500 - 0.4600
+  信号均值: 0.0828
+  信号中位数: 0.0856
+  最小信号值阈值: 0.05
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/Methylation_distribution.pdf
+✅ 已保存: signal_distribution/Methylation_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: intestine.CG.bed
+📊 数据统计:
+  总记录数: 1923196
+  染色体数量: 24
+  信号范围: 0.0500 - 0.4600
+  信号均值: 0.0828
+  信号中位数: 0.0856
+  最小信号值阈值: 0.05
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/raw_meth_distribution.pdf
+✅ 已保存: signal_distribution/raw_meth_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: ./atac_matrix.bed
+📝 文件格式: 矩阵格式
+📊 数据统计:
+  总记录数: 108500515
+  染色体数量: 24
+  信号范围: 0.0000 - 0.7127
+  信号均值: 0.0171
+  信号中位数: 0.0131
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/atac_distribution.pdf
+✅ 已保存: signal_distribution/atac_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
+📖 正在读取数据: ./methyl_matrix.bed
+📝 文件格式: 矩阵格式
+📊 数据统计:
+  总记录数: 108500515
+  染色体数量: 24
+  信号范围: 0.0000 - 0.4600
+  信号均值: 0.0015
+  信号中位数: 0.0000
+🎨 正在绘制分布曲线...
+✅ 已保存: signal_distribution/meth_distribution.pdf
+✅ 已保存: signal_distribution/meth_distribution.png
+✅ 完成！分布曲线已保存到 signal_distribution
