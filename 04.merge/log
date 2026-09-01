@@ -1,0 +1,243 @@
+2026-03-24 06:50:56 - MainProcess - 🚀 开始ATAC+甲基化BW全组合合并（笛卡尔积+多进程）
+2026-03-24 06:50:56 - MainProcess -    运行时间：2026-03-24 06:50:56
+2026-03-24 06:50:56 - MainProcess -    ATAC目录：./atac_bw
+2026-03-24 06:50:56 - MainProcess -    甲基化目录：./merged_methyl_uniq
+2026-03-24 06:50:56 - MainProcess -    输出目录：./merged_all_pairs
+2026-03-24 06:50:56 - MainProcess -    染色体文件：/home/yaoxinw/workdir/project/11.nvwa/01.chidian/species_chrom_size.xls
+2026-03-24 06:50:56 - MainProcess -    分辨率：10bp
+2026-03-24 06:50:56 - MainProcess -    并行进程数：16
+2026-03-24 06:50:56 - MainProcess -    生成shell脚本：False
+2026-03-24 06:50:56 - MainProcess - 
+📁 扫描ATAC目录：./atac_bw
+2026-03-24 06:50:56 - MainProcess -    找到 10 个ATAC BW文件：
+2026-03-24 06:50:56 - MainProcess -      [1] Endothelial.bw
+2026-03-24 06:50:56 - MainProcess -      [2] Epithelial.bw
+2026-03-24 06:50:56 - MainProcess -      [3] Erythroid.bw
+2026-03-24 06:50:56 - MainProcess -      [4] Hepatocyte.bw
+2026-03-24 06:50:56 - MainProcess -      [5] Immune.bw
+2026-03-24 06:50:56 - MainProcess -      [6] Muscle.bw
+2026-03-24 06:50:56 - MainProcess -      [7] Neural.bw
+2026-03-24 06:50:56 - MainProcess -      [8] Reproductive.bw
+2026-03-24 06:50:56 - MainProcess -      [9] Secretory.bw
+2026-03-24 06:50:56 - MainProcess -      [10] Stromal.bw
+2026-03-24 06:50:56 - MainProcess - 
+📁 扫描甲基化目录：./merged_methyl_uniq
+2026-03-24 06:50:56 - MainProcess -    找到 12 个甲基化 BW文件：
+2026-03-24 06:50:56 - MainProcess -      [1] intestine.CG.bw
+2026-03-24 06:50:56 - MainProcess -      [2] intestine.CHG.bw
+2026-03-24 06:50:56 - MainProcess -      [3] intestine.CHH.bw
+2026-03-24 06:50:56 - MainProcess -      [4] kidney.CG.bw
+2026-03-24 06:50:56 - MainProcess -      [5] kidney.CHG.bw
+2026-03-24 06:50:56 - MainProcess -      [6] kidney.CHH.bw
+2026-03-24 06:50:56 - MainProcess -      [7] liver.CG.bw
+2026-03-24 06:50:56 - MainProcess -      [8] liver.CHG.bw
+2026-03-24 06:50:56 - MainProcess -      [9] liver.CHH.bw
+2026-03-24 06:50:56 - MainProcess -      [10] spleen.CG.bw
+2026-03-24 06:50:56 - MainProcess -      [11] spleen.CHG.bw
+2026-03-24 06:50:56 - MainProcess -      [12] spleen.CHH.bw
+2026-03-24 06:50:56 - MainProcess - 
+🎯 生成所有两两组合（笛卡尔积）：
+2026-03-24 06:50:56 - MainProcess -    ATAC文件数：10
+2026-03-24 06:50:56 - MainProcess -    甲基化文件数：12
+2026-03-24 06:50:56 - MainProcess -    总组合数：120 = 10 × 12
+2026-03-24 06:50:56 - MainProcess -    前5个组合示例：
+2026-03-24 06:50:56 - MainProcess -      [1] Endothelial_VS_intestine.CG
+2026-03-24 06:50:56 - MainProcess -      [2] Endothelial_VS_intestine.CHG
+2026-03-24 06:50:56 - MainProcess -      [3] Endothelial_VS_intestine.CHH
+2026-03-24 06:50:56 - MainProcess -      [4] Endothelial_VS_kidney.CG
+2026-03-24 06:50:56 - MainProcess -      [5] Endothelial_VS_kidney.CHG
+2026-03-24 06:50:56 - MainProcess -      ... 共120个组合
+2026-03-24 06:50:56 - MainProcess - 
+⚡ 开始多进程合并（进程数：16 | 总组合数：120）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:29:28 - ForkProcess-11 - ✅ Endothelial_VS_spleen.CHG：完成（耗时16711.29秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:29:42 - ForkProcess-5 - ✅ Endothelial_VS_kidney.CHG：完成（耗时16725.48秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:30:00 - ForkProcess-2 - ✅ Endothelial_VS_intestine.CHG：完成（耗时16743.30秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:31:02 - ForkProcess-8 - ✅ Endothelial_VS_liver.CHG：完成（耗时16805.60秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:31:03 - ForkProcess-14 - ✅ Epithelial_VS_intestine.CHG：完成（耗时16806.63秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:38:56 - ForkProcess-3 - ✅ Endothelial_VS_intestine.CHH：完成（耗时17280.11秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:38:59 - ForkProcess-6 - ✅ Endothelial_VS_kidney.CHH：完成（耗时17283.14秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:39:44 - ForkProcess-9 - ✅ Endothelial_VS_liver.CHH：完成（耗时17327.32秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:41:02 - ForkProcess-12 - ✅ Endothelial_VS_spleen.CHH：完成（耗时17405.58秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:41:45 - ForkProcess-15 - ✅ Epithelial_VS_intestine.CHH：完成（耗时17448.87秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:53:38 - ForkProcess-1 - ✅ Endothelial_VS_intestine.CG：完成（耗时18161.78秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:55:04 - ForkProcess-16 - ✅ Epithelial_VS_kidney.CG：完成（耗时18247.82秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:55:28 - ForkProcess-13 - ✅ Epithelial_VS_intestine.CG：完成（耗时18272.14秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:55:30 - ForkProcess-4 - ✅ Endothelial_VS_kidney.CG：完成（耗时18273.59秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:57:07 - ForkProcess-10 - ✅ Endothelial_VS_spleen.CG：完成（耗时18370.48秒 | 处理113572634个区间）
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:173: RuntimeWarning: Mean of empty slice
+  atac_sig = np.nan if (atac_sig_list is None or len(atac_sig_list) == 0) else np.nanmean(atac_sig_list)
+/home/yaoxinw/workdir/project/11.nvwa/04.merge/bw_pair_merge_muliti.py:178: RuntimeWarning: Mean of empty slice
+  methyl_sig = np.nan if (methyl_sig_list is None or len(methyl_sig_list) == 0) else np.nanmean(methyl_sig_list)
+2026-03-24 11:57:15 - ForkProcess-7 - ✅ Endothelial_VS_liver.CG：完成（耗时18378.79秒 | 处理113572634个区间）
+2026-03-24 16:08:32 - ForkProcess-11 - ✅ Epithelial_VS_kidney.CHG：完成（耗时16744.05秒 | 处理113572634个区间）
+2026-03-24 16:12:29 - ForkProcess-8 - ✅ Epithelial_VS_liver.CHG：完成（耗时16887.33秒 | 处理113572634个区间）
+2026-03-24 16:15:28 - ForkProcess-15 - ✅ Erythroid_VS_intestine.CHG：完成（耗时16422.52秒 | 处理113572634个区间）
+2026-03-24 16:17:37 - ForkProcess-5 - ✅ Epithelial_VS_kidney.CHH：完成（耗时17274.91秒 | 处理113572634个区间）
+2026-03-24 16:17:45 - ForkProcess-6 - ✅ Epithelial_VS_spleen.CHG：完成（耗时16725.36秒 | 处理113572634个区间）
+2026-03-24 16:19:04 - ForkProcess-14 - ✅ Epithelial_VS_liver.CHH：完成（耗时17280.87秒 | 处理113572634个区间）
+2026-03-24 16:27:19 - ForkProcess-9 - ✅ Epithelial_VS_spleen.CHH：完成（耗时17255.48秒 | 处理113572634个区间）
+2026-03-24 16:28:30 - ForkProcess-13 - ✅ Erythroid_VS_kidney.CHG：完成（耗时16381.14秒 | 处理113572634个区间）
+2026-03-24 16:32:32 - ForkProcess-2 - ✅ Epithelial_VS_liver.CG：完成（耗时18152.25秒 | 处理113572634个区间）
+2026-03-24 16:33:05 - ForkProcess-7 - ✅ Erythroid_VS_liver.CHG：完成（耗时16549.49秒 | 处理113572634个区间）
+2026-03-24 16:35:37 - ForkProcess-1 - ✅ Erythroid_VS_intestine.CHH：完成（耗时16918.93秒 | 处理113572634个区间）
+2026-03-24 16:36:34 - ForkProcess-4 - ✅ Erythroid_VS_kidney.CHH：完成（耗时16864.57秒 | 处理113572634个区间）
+2026-03-24 16:37:15 - ForkProcess-12 - ✅ Erythroid_VS_intestine.CG：完成（耗时17773.41秒 | 处理113572634个区间）
+2026-03-24 16:40:49 - ForkProcess-3 - ✅ Epithelial_VS_spleen.CG：完成（耗时18112.45秒 | 处理113572634个区间）
+2026-03-24 16:48:59 - ForkProcess-16 - ✅ Erythroid_VS_kidney.CG：完成（耗时17635.10秒 | 处理113572634个区间）
+2026-03-24 16:53:25 - ForkProcess-10 - ✅ Erythroid_VS_liver.CG：完成（耗时17778.29秒 | 处理113572634个区间）
+2026-03-24 20:48:28 - ForkProcess-15 - ✅ Erythroid_VS_spleen.CHG：完成（耗时16380.77秒 | 处理113572634个区间）
+2026-03-24 20:50:19 - ForkProcess-11 - ✅ Erythroid_VS_liver.CHH：完成（耗时16907.03秒 | 处理113572634个区间）
+2026-03-24 20:53:43 - ForkProcess-14 - ✅ Hepatocyte_VS_intestine.CHG：完成（耗时16478.92秒 | 处理113572634个区间）
+2026-03-24 21:00:00 - ForkProcess-5 - ✅ Erythroid_VS_spleen.CHH：完成（耗时16943.54秒 | 处理113572634个区间）
+2026-03-24 21:06:19 - ForkProcess-2 - ✅ Hepatocyte_VS_kidney.CHG：完成（耗时16427.09秒 | 处理113572634个区间）
+2026-03-24 21:09:32 - ForkProcess-9 - ✅ Hepatocyte_VS_intestine.CHH：完成（耗时16932.54秒 | 处理113572634个区间）
+2026-03-24 21:09:57 - ForkProcess-8 - ✅ Erythroid_VS_spleen.CG：完成（耗时17848.13秒 | 处理113572634个区间）
+2026-03-24 21:11:29 - ForkProcess-4 - ✅ Hepatocyte_VS_liver.CHG：完成（耗时16494.80秒 | 处理113572634个区间）
+2026-03-24 21:14:19 - ForkProcess-6 - ✅ Hepatocyte_VS_intestine.CG：完成（耗时17794.61秒 | 处理113572634个区间）
+2026-03-24 21:16:43 - ForkProcess-7 - ✅ Hepatocyte_VS_kidney.CHH：完成（耗时17018.10秒 | 处理113572634个区间）
+2026-03-24 21:22:04 - ForkProcess-16 - ✅ Hepatocyte_VS_spleen.CHG：完成（耗时16385.17秒 | 处理113572634个区间）
+2026-03-24 21:22:32 - ForkProcess-12 - ✅ Hepatocyte_VS_liver.CHH：完成（耗时17116.93秒 | 处理113572634个区间）
+2026-03-24 21:26:37 - ForkProcess-13 - ✅ Hepatocyte_VS_kidney.CG：完成（耗时17887.79秒 | 处理113572634个区间）
+2026-03-24 21:30:39 - ForkProcess-1 - ✅ Hepatocyte_VS_liver.CG：完成（耗时17701.96秒 | 处理113572634个区间）
+2026-03-24 21:35:17 - ForkProcess-3 - ✅ Hepatocyte_VS_spleen.CG：完成（耗时17668.57秒 | 处理113572634个区间）
+2026-03-24 21:37:31 - ForkProcess-10 - ✅ Hepatocyte_VS_spleen.CHH：完成（耗时17045.84秒 | 处理113572634个区间）
+2026-03-25 01:31:45 - ForkProcess-11 - ✅ Immune_VS_intestine.CHG：完成（耗时16886.42秒 | 处理113572634个区间）
+2026-03-25 01:42:55 - ForkProcess-14 - ✅ Immune_VS_intestine.CHH：完成（耗时17352.66秒 | 处理113572634个区间）
+2026-03-25 01:47:10 - ForkProcess-2 - ✅ Immune_VS_kidney.CHG：完成（耗时16850.73秒 | 处理113572634个区间）
+2026-03-25 01:52:21 - ForkProcess-4 - ✅ Immune_VS_liver.CHG：完成（耗时16852.14秒 | 处理113572634个区间）
+2026-03-25 01:55:32 - ForkProcess-15 - ✅ Immune_VS_intestine.CG：完成（耗时18423.72秒 | 处理113572634个区间）
+2026-03-25 01:59:37 - ForkProcess-9 - ✅ Immune_VS_kidney.CHH：完成（耗时17405.84秒 | 处理113572634个区间）
+2026-03-25 02:00:35 - ForkProcess-16 - ✅ Immune_VS_spleen.CHG：完成（耗时16710.79秒 | 处理113572634个区间）
+2026-03-25 02:04:25 - ForkProcess-6 - ✅ Immune_VS_liver.CHH：完成（耗时17405.10秒 | 处理113572634个区间）
+2026-03-25 02:07:52 - ForkProcess-5 - ✅ Immune_VS_kidney.CG：完成（耗时18472.18秒 | 处理113572634个区间）
+2026-03-25 02:07:56 - ForkProcess-1 - ✅ Muscle_VS_intestine.CHG：完成（耗时16636.95秒 | 处理113572634个区间）
+2026-03-25 02:13:05 - ForkProcess-12 - ✅ Immune_VS_spleen.CHH：完成（耗时17432.82秒 | 处理113572634个区间）
+2026-03-25 02:18:37 - ForkProcess-8 - ✅ Immune_VS_liver.CG：完成（耗时18519.96秒 | 处理113572634个区间）
+2026-03-25 02:20:07 - ForkProcess-3 - ✅ Muscle_VS_intestine.CHH：完成（耗时17090.04秒 | 处理113572634个区间）
+2026-03-25 02:23:56 - ForkProcess-7 - ✅ Immune_VS_spleen.CG：完成（耗时18432.88秒 | 处理113572634个区间）
+2026-03-25 02:27:45 - ForkProcess-13 - ✅ Muscle_VS_intestine.CG：完成（耗时18068.11秒 | 处理113572634个区间）
+2026-03-25 02:40:22 - ForkProcess-10 - ✅ Muscle_VS_kidney.CG：完成（耗时18170.62秒 | 处理113572634个区间）
+2026-03-25 06:07:39 - ForkProcess-11 - ✅ Muscle_VS_kidney.CHG：完成（耗时16553.84秒 | 处理113572634个区间）
+2026-03-25 06:28:28 - ForkProcess-14 - ✅ Muscle_VS_kidney.CHH：完成（耗时17133.02秒 | 处理113572634个区间）
+2026-03-25 06:30:33 - ForkProcess-4 - ✅ Muscle_VS_liver.CHG：完成（耗时16691.61秒 | 处理113572634个区间）
+2026-03-25 06:36:23 - ForkProcess-16 - ✅ Muscle_VS_spleen.CHG：完成（耗时16547.33秒 | 处理113572634个区间）
+2026-03-25 06:42:40 - ForkProcess-15 - ✅ Muscle_VS_liver.CHH：完成（耗时17227.82秒 | 处理113572634个区间）
+2026-03-25 06:47:48 - ForkProcess-2 - ✅ Muscle_VS_liver.CG：完成（耗时18038.18秒 | 处理113572634个区间）
+2026-03-25 06:49:29 - ForkProcess-1 - ✅ Neural_VS_intestine.CHG：完成（耗时16893.09秒 | 处理113572634个区间）
+2026-03-25 06:51:08 - ForkProcess-6 - ✅ Muscle_VS_spleen.CHH：完成（耗时17203.47秒 | 处理113572634个区间）
+2026-03-25 06:59:19 - ForkProcess-3 - ✅ Neural_VS_kidney.CHG：完成（耗时16751.78秒 | 处理113572634个区间）
+2026-03-25 07:00:37 - ForkProcess-9 - ✅ Muscle_VS_spleen.CG：完成（耗时18059.30秒 | 处理113572634个区间）
+2026-03-25 07:05:52 - ForkProcess-12 - ✅ Neural_VS_intestine.CHH：完成（耗时17566.56秒 | 处理113572634个区间）
+2026-03-25 07:16:11 - ForkProcess-7 - ✅ Neural_VS_kidney.CHH：完成（耗时17535.68秒 | 处理113572634个区间）
+2026-03-25 07:16:29 - ForkProcess-5 - ✅ Neural_VS_intestine.CG：完成（耗时18516.81秒 | 处理113572634个区间）
+2026-03-25 07:25:13 - ForkProcess-10 - ✅ Neural_VS_liver.CHG：完成（耗时17091.06秒 | 处理113572634个区间）
+2026-03-25 07:28:46 - ForkProcess-8 - ✅ Neural_VS_kidney.CG：完成（耗时18608.91秒 | 处理113572634个区间）
+2026-03-25 07:36:42 - ForkProcess-13 - ✅ Neural_VS_liver.CG：完成（耗时18536.89秒 | 处理113572634个区间）
+2026-03-25 11:00:02 - ForkProcess-11 - ✅ Neural_VS_liver.CHH：完成（耗时17543.34秒 | 处理113572634个区间）
+2026-03-25 11:11:44 - ForkProcess-4 - ✅ Neural_VS_spleen.CHG：完成（耗时16870.49秒 | 处理113572634个区间）
+2026-03-25 11:26:48 - ForkProcess-16 - ✅ Neural_VS_spleen.CHH：完成（耗时17425.60秒 | 处理113572634个区间）
+2026-03-25 11:26:53 - ForkProcess-2 - ✅ Reproductive_VS_intestine.CHG：完成（耗时16745.28秒 | 处理113572634个区间）
+2026-03-25 11:35:43 - ForkProcess-3 - ✅ Reproductive_VS_kidney.CHG：完成（耗时16583.95秒 | 处理113572634个区间）
+2026-03-25 11:36:15 - ForkProcess-14 - ✅ Neural_VS_spleen.CG：完成（耗时18466.91秒 | 处理113572634个区间）
+2026-03-25 11:37:33 - ForkProcess-1 - ✅ Reproductive_VS_intestine.CHH：完成（耗时17283.97秒 | 处理113572634个区间）
+2026-03-25 11:45:28 - ForkProcess-15 - ✅ Reproductive_VS_intestine.CG：完成（耗时18168.10秒 | 处理113572634个区间）
+2026-03-25 11:48:26 - ForkProcess-9 - ✅ Reproductive_VS_kidney.CHH：完成（耗时17269.54秒 | 处理113572634个区间）
+2026-03-25 11:54:26 - ForkProcess-6 - ✅ Reproductive_VS_kidney.CG：完成（耗时18198.12秒 | 处理113572634个区间）
+2026-03-25 11:55:31 - ForkProcess-7 - ✅ Reproductive_VS_liver.CHG：完成（耗时16759.27秒 | 处理113572634个区间）
+2026-03-25 12:04:21 - ForkProcess-5 - ✅ Reproductive_VS_liver.CHH：完成（耗时17271.93秒 | 处理113572634个区间）
+2026-03-25 12:07:08 - ForkProcess-8 - ✅ Reproductive_VS_spleen.CHG：完成（耗时16702.14秒 | 处理113572634个区间）
+2026-03-25 12:09:00 - ForkProcess-12 - ✅ Reproductive_VS_liver.CG：完成（耗时18188.43秒 | 处理113572634个区间）
+2026-03-25 12:24:42 - ForkProcess-13 - ✅ Reproductive_VS_spleen.CHH：完成（耗时17279.77秒 | 处理113572634个区间）
+2026-03-25 12:29:08 - ForkProcess-10 - ✅ Reproductive_VS_spleen.CG：完成（耗时18235.85秒 | 处理113572634个区间）
+2026-03-25 15:52:16 - ForkProcess-4 - ✅ Secretory_VS_intestine.CHG：完成（耗时16832.32秒 | 处理113572634个区间）
+2026-03-25 16:06:06 - ForkProcess-11 - ✅ Secretory_VS_intestine.CG：完成（耗时18363.65秒 | 处理113572634个区间）
+2026-03-25 16:14:22 - ForkProcess-3 - ✅ Secretory_VS_kidney.CHG：完成（耗时16718.98秒 | 处理113572634个区间）
+2026-03-25 16:16:31 - ForkProcess-16 - ✅ Secretory_VS_intestine.CHH：完成（耗时17382.90秒 | 处理113572634个区间）
+2026-03-25 16:24:30 - ForkProcess-14 - ✅ Secretory_VS_kidney.CHH：完成（耗时17294.75秒 | 处理113572634个区间）
+2026-03-25 16:28:15 - ForkProcess-15 - ✅ Secretory_VS_liver.CHG：完成（耗时16966.43秒 | 处理113572634个区间）
+2026-03-25 16:33:21 - ForkProcess-2 - ✅ Secretory_VS_kidney.CG：完成（耗时18387.56秒 | 处理113572634个区间）
+2026-03-25 16:33:47 - ForkProcess-7 - ✅ Secretory_VS_spleen.CHG：完成（耗时16696.36秒 | 处理113572634个区间）
+2026-03-25 16:38:50 - ForkProcess-9 - ✅ Secretory_VS_liver.CHH：完成（耗时17423.83秒 | 处理113572634个区间）
+2026-03-25 16:43:54 - ForkProcess-1 - ✅ Secretory_VS_liver.CG：完成（耗时18381.42秒 | 处理113572634个区间）
+2026-03-25 16:48:47 - ForkProcess-12 - ✅ Stromal_VS_intestine.CHG：完成（耗时16786.61秒 | 处理113572634个区间）
+2026-03-25 16:53:06 - ForkProcess-5 - ✅ Secretory_VS_spleen.CHH：完成（耗时17324.48秒 | 处理113572634个区间）
+2026-03-25 17:00:16 - ForkProcess-6 - ✅ Secretory_VS_spleen.CG：完成（耗时18350.20秒 | 处理113572634个区间）
+2026-03-25 17:10:35 - ForkProcess-8 - ✅ Stromal_VS_intestine.CG：完成（耗时18206.81秒 | 处理113572634个区间）
+2026-03-25 17:13:28 - ForkProcess-13 - ✅ Stromal_VS_intestine.CHH：完成（耗时17325.91秒 | 处理113572634个区间）
+2026-03-25 17:33:37 - ForkProcess-10 - ✅ Stromal_VS_kidney.CG：完成（耗时18268.82秒 | 处理113572634个区间）
+2026-03-25 20:21:44 - ForkProcess-4 - ✅ Stromal_VS_kidney.CHG：完成（耗时16168.13秒 | 处理113572634个区间）
+2026-03-25 20:45:48 - ForkProcess-11 - ✅ Stromal_VS_kidney.CHH：完成（耗时16781.78秒 | 处理113572634个区间）
+2026-03-25 20:46:08 - ForkProcess-16 - ✅ Stromal_VS_liver.CHG：完成（耗时16176.98秒 | 处理113572634个区间）
+2026-03-25 21:00:37 - ForkProcess-14 - ✅ Stromal_VS_liver.CHH：完成（耗时16567.33秒 | 处理113572634个区间）
+2026-03-25 21:01:37 - ForkProcess-2 - ✅ Stromal_VS_spleen.CHG：完成（耗时16095.85秒 | 处理113572634个区间）
+2026-03-25 21:05:59 - ForkProcess-3 - ✅ Stromal_VS_liver.CG：完成（耗时17496.90秒 | 处理113572634个区间）
+2026-03-25 21:10:01 - ForkProcess-7 - ✅ Stromal_VS_spleen.CHH：完成（耗时16574.11秒 | 处理113572634个区间）
+2026-03-25 21:21:08 - ForkProcess-15 - ✅ Stromal_VS_spleen.CG：完成（耗时17573.16秒 | 处理113572634个区间）
+2026-03-25 21:21:08 - MainProcess - 
+📊 最终汇总（总耗时：138611.43秒）：
+2026-03-25 21:21:08 - MainProcess -    总组合数：120
+2026-03-25 21:21:08 - MainProcess -    成功数：120
+2026-03-25 21:21:08 - MainProcess -    失败数：0
+2026-03-25 21:21:08 - MainProcess -    平均耗时：1155.10秒/组合
+2026-03-25 21:21:08 - MainProcess - 
+🎉 所有任务完成！输出目录：./merged_all_pairs

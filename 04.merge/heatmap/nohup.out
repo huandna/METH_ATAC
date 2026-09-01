@@ -1,0 +1,81 @@
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+
+📊 染色体信号分布统计:
+================================================================================
+
+🧬 甲基化信号分布:
+Chr01: 均值=0.0828, 中位数=0.0856, 最大值=0.4000, 最小值=0.0500, 标准差=0.0209, 非零值数量=93253
+Chr02: 均值=0.0829, 中位数=0.0859, 最大值=0.3819, 最小值=0.0500, 标准差=0.0205, 非零值数量=91819
+Chr03: 均值=0.0820, 中位数=0.0835, 最大值=0.3641, 最小值=0.0500, 标准差=0.0215, 非零值数量=88789
+Chr04: 均值=0.0830, 中位数=0.0857, 最大值=0.4436, 最小值=0.0500, 标准差=0.0215, 非零值数量=92125
+Chr05: 均值=0.0827, 中位数=0.0856, 最大值=0.4600, 最小值=0.0500, 标准差=0.0208, 非零值数量=87641
+Chr06: 均值=0.0827, 中位数=0.0852, 最大值=0.3750, 最小值=0.0500, 标准差=0.0209, 非零值数量=87093
+Chr07: 均值=0.0833, 中位数=0.0863, 最大值=0.3958, 最小值=0.0500, 标准差=0.0211, 非零值数量=85702
+Chr08: 均值=0.0828, 中位数=0.0856, 最大值=0.4000, 最小值=0.0500, 标准差=0.0210, 非零值数量=86945
+Chr09: 均值=0.0834, 中位数=0.0863, 最大值=0.3972, 最小值=0.0500, 标准差=0.0213, 非零值数量=83589
+Chr10: 均值=0.0830, 中位数=0.0861, 最大值=0.3636, 最小值=0.0500, 标准差=0.0206, 非零值数量=78929
+Chr11: 均值=0.0833, 中位数=0.0863, 最大值=0.3921, 最小值=0.0500, 标准差=0.0208, 非零值数量=80768
+Chr12: 均值=0.0829, 中位数=0.0861, 最大值=0.4482, 最小值=0.0500, 标准差=0.0204, 非零值数量=81416
+Chr13: 均值=0.0826, 中位数=0.0852, 最大值=0.3400, 最小值=0.0500, 标准差=0.0211, 非零值数量=78798
+Chr14: 均值=0.0830, 中位数=0.0859, 最大值=0.4216, 最小值=0.0500, 标准差=0.0212, 非零值数量=81087
+Chr15: 均值=0.0826, 中位数=0.0850, 最大值=0.3335, 最小值=0.0500, 标准差=0.0213, 非零值数量=80397
+Chr16: 均值=0.0824, 中位数=0.0848, 最大值=0.3258, 最小值=0.0500, 标准差=0.0212, 非零值数量=82100
+Chr17: 均值=0.0825, 中位数=0.0851, 最大值=0.3933, 最小值=0.0500, 标准差=0.0211, 非零值数量=78091
+Chr18: 均值=0.0831, 中位数=0.0863, 最大值=0.3772, 最小值=0.0500, 标准差=0.0203, 非零值数量=76835
+Chr19: 均值=0.0827, 中位数=0.0856, 最大值=0.3544, 最小值=0.0500, 标准差=0.0208, 非零值数量=74011
+Chr20: 均值=0.0823, 中位数=0.0844, 最大值=0.4112, 最小值=0.0500, 标准差=0.0218, 非零值数量=68477
+Chr21: 均值=0.0829, 中位数=0.0857, 最大值=0.3214, 最小值=0.0500, 标准差=0.0208, 非零值数量=73114
+Chr22: 均值=0.0830, 中位数=0.0860, 最大值=0.3783, 最小值=0.0500, 标准差=0.0209, 非零值数量=72522
+Chr23: 均值=0.0833, 中位数=0.0863, 最大值=0.3151, 最小值=0.0500, 标准差=0.0212, 非零值数量=70621
+Chr24: 均值=0.0821, 中位数=0.0833, 最大值=0.3802, 最小值=0.0500, 标准差=0.0223, 非零值数量=49074
+
+🔍 Chr24甲基化信号分析:
+Chr24: 均值=0.0821, 中位数=0.0833
+其他染色体平均: 均值=0.0828, 中位数=0.0856
+
+差异分析:
+均值差异: -0.0007 (Chr24更低)
+中位数差异: -0.0023 (Chr24更低)
+
+✅ 结论: Chr24的甲基化信号与其他染色体没有显著差异
+✅ 保存：genome_strip_heatmaps_24/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps_24/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps_24/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！

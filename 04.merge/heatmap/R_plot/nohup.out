@@ -1,0 +1,19 @@
+正在读取数据...
+Error in fread(input_file, header = TRUE, sep = ",", showProgress = TRUE) : 
+  File 'test.csv' does not exist or is non-readable. getwd()=='/home/yaoxinw/workdir/project/11.nvwa/04.merge/heatmap/R_plot'
+Calls: process_and_plot -> fread -> stopf -> raise_condition -> signal
+Execution halted
+正在读取数据...
+正在转换位置单位...
+正在处理染色体信息...
+正在处理信号列: atac
+信号值范围: 0 到 0.7127
+正在保存热图到: chromosome_heatmap_atac.png
+正在处理信号列: methyl
+信号值范围: 0 到 0.46
+正在保存热图到: chromosome_heatmap_methyl.png
+正在处理信号列: activity_score
+信号值范围: 0 到 0.7127
+正在保存热图到: chromosome_heatmap_activity_score.png
+处理完成!
+There were 13 warnings (use warnings() to see them)

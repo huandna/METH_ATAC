@@ -1,0 +1,191 @@
+[INFO] 读取染色体信息...
+[INFO] 常染色体总数：24
+✅ Chr09 完成
+✅ Chr03 完成
+✅ Chr10 完成
+✅ Chr06 完成
+✅ Chr13 完成
+✅ Chr04 完成
+✅ Chr01 完成
+✅ Chr02 完成
+✅ Chr16 完成
+✅ Chr24 完成
+✅ Chr11 完成
+✅ Chr20 完成
+✅ Chr05 完成
+✅ Chr23 完成
+✅ Chr15 完成
+✅ Chr18 完成
+✅ Chr08 完成
+✅ Chr21 完成
+✅ Chr07 完成
+✅ Chr22 完成
+✅ Chr14 完成
+✅ Chr17 完成
+✅ Chr12 完成
+✅ Chr19 完成
+[INFO] 合并全基因组矩阵...
+[INFO] 生成机器学习总数据集...
+
+🎉🎉🎉 最终正确版本 全部完成！
+📊 ATAC 矩阵: genome_final_output/atac_matrix.bed
+📊 甲基化矩阵: genome_final_output/methyl_matrix.bed
+📊 染色质活性评分矩阵: genome_final_output/activity_score_matrix.bed
+🤖 机器学习训练集: genome_final_output/genome_ml_dataset.csv
+
+✅ 评分公式：activity_score = ATAC * (1 - 甲基化)
+✅ 无数学错误 | 可直接用于论文 | 完美支持机器学习
+usage: plot_genome_heatmap.py [-h] --atac ATAC --methyl METHYL --score SCORE
+                              [--out_dir OUT_DIR]
+plot_genome_heatmap.py: error: the following arguments are required: --score
+[INFO] 加载 ATAC 矩阵...
+[INFO] 加载甲基化矩阵...
+[INFO] 加载活性评分矩阵...
+✅ 保存：genome_strip_heatmaps/atac_strip.png
+✅ 保存：genome_strip_heatmaps/methyl_strip.png
+✅ 保存：genome_strip_heatmaps/activity_strip.png
+
+🎉 所有染色体水平条热图绘制完成！
+[INFO] 加载 ATAC 矩阵...
+[INFO] 加载甲基化矩阵...
+[INFO] 加载活性评分矩阵...
+✅ 保存：genome_strip_heatmaps/atac_strip.png
+✅ 保存：genome_strip_heatmaps/methyl_strip.png
+✅ 保存：genome_strip_heatmaps/activity_strip.png
+
+🎉 所有染色体水平条热图绘制完成！
+/home/yaoxinw/.conda/envs/prokka_env/lib/python3.7/site-packages/matplotlib/figure.py:2369: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  warnings.warn("This figure includes Axes that are not compatible "
+✅ 保存：genome_strip_heatmaps/atac_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/methyl_heatmap.pdf
+✅ 保存：genome_strip_heatmaps/activity_score_heatmap.pdf
+
+🎉 全部完成！3张PDF高清热图已生成！
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[INFO] 读取数据...
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in library(data.table) : there is no package called ‘data.table’
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+[INFO] 高速读取数据...
+[INFO] 开始绘图...
+正在处理： ATAC Signal 
+✅ 已保存： genome_heatmaps_R/atac_heatmap.pdf 
+正在处理： Methylation Level 
+✅ 已保存： genome_heatmaps_R/methyl_heatmap.pdf 
+正在处理： Activity Score (ATAC*(1-Methyl)) 
+Error in continuous_scale(aesthetics, name = name, palette = pal_gradient_n(colours,  : 
+  unused argument (midpoint = 0.0303)
+Calls: plot_single_fast -> scale_fill_gradientn
+Execution halted
+[INFO] 高速读取数据...
+[INFO] 开始绘图...
+正在处理： ATAC Signal 
+✅ 已保存： genome_heatmaps_R/atac_heatmap.pdf 
+正在处理： Methylation Level 
+✅ 已保存： genome_heatmaps_R/methyl_heatmap.pdf 
+正在处理： Activity Score 
+✅ 已保存： genome_heatmaps_R/activity_score.pdf 
+
+🎉 全部完成！速度超快！
+[INFO] 读取数据...
+[INFO] 绘图...
+处理： ATAC Signal 
+✅ 已保存： genome_heatmaps_R/atac_heatmap.pdf 
+处理： Methylation Level 
+✅ 已保存： genome_heatmaps_R/methyl_heatmap.pdf 
+处理： Activity Score 
+✅ 已保存： genome_heatmaps_R/activity_score.pdf 
+
+🎉 全部完成！PDF 可正常打开！
+[INFO] 读取数据...
+[INFO] 开始绘图...
+正在绘制： ATAC Signal 
+✅ 已保存： genome_heatmaps_R/atac.pdf 
+正在绘制： Methylation 
+✅ 已保存： genome_heatmaps_R/methyl.pdf 
+正在绘制： Activity Score 
+✅ 已保存： genome_heatmaps_R/score.pdf 
+
+🎉 全部完成！无白屏 + 无边框！
+读取数据...
+开始绘图...
+正在绘图： ATAC Signal 
+✅ 保存成功： genome_heatmaps_R/atac.pdf 
+正在绘图： Methylation Level 
+✅ 保存成功： genome_heatmaps_R/methyl.pdf 
+正在绘图： Activity Score 
+✅ 保存成功： genome_heatmaps_R/score.pdf 
+
+🎉 全部完成！图片正常显示！
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[INFO] 读取文件： genome_final_output/genome_ml_dataset.csv 
+[INFO] 开始绘图...
+✅ 已保存： genome_heatmaps_R/ATAC.pdf 
+✅ 已保存： genome_heatmaps_R/Methylation.pdf 
+✅ 已保存： genome_heatmaps_R/Activity_Score.pdf 
+
+🎉 🎉 🎉 全部完成！
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+✅ 保存： genome_heatmaps_R/ATAC.pdf 
+✅ 保存： genome_heatmaps_R/Methyl.pdf 
+✅ 保存： genome_heatmaps_R/Score.pdf 
+
+🎉 100% 成功！绝对不空白！

@@ -1,0 +1,136 @@
+2026-03-23 10:41:57 - MainThread - INFO - ==================================================
+2026-03-23 10:41:57 - MainThread - INFO - 甲基化重复样本合并脚本（多线程+日志版）启动
+2026-03-23 10:41:57 - MainThread - INFO - 启动时间：2026-03-23 10:41:57
+2026-03-23 10:41:57 - MainThread - INFO - 输入目录：./methyl_bw
+2026-03-23 10:41:57 - MainThread - INFO - 输出目录：./merged_methyl_uniq
+2026-03-23 10:41:57 - MainThread - INFO - 染色体文件：/home/yaoxinw/workdir/project/11.nvwa/01.chidian/species_chrom_size.xls
+2026-03-23 10:41:57 - MainThread - INFO - 分辨率：10bp | 最小信号阈值：0.05
+2026-03-23 10:41:57 - MainThread - INFO - 并行线程数：24
+2026-03-23 10:41:57 - MainThread - INFO - ==================================================
+2026-03-23 10:41:57 - MainThread - INFO - 扫描到 36 个BW文件
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine1.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine1.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine2.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine2.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine3.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：intestine3.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney1.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney1.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney2.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney2.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney3.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：kidney3.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver1.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver1.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver2.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver2.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver3.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：liver3.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen1.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen1.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen2.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen2.CHH.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen3.CHG.bw
+2026-03-23 10:41:57 - MainThread - WARNING - 文件不匹配规则，跳过：spleen3.CHH.bw
+2026-03-23 10:41:57 - MainThread - INFO - 有效分组：intestine.CG → 3个重复
+2026-03-23 10:41:57 - MainThread - INFO - 有效分组：kidney.CG → 3个重复
+2026-03-23 10:41:57 - MainThread - INFO - 有效分组：liver.CG → 3个重复
+2026-03-23 10:41:57 - MainThread - INFO - 有效分组：spleen.CG → 3个重复
+2026-03-23 10:41:57 - MainThread - INFO - 分组汇总：总分组数4 | 有效分组4 | 无效分组0
+2026-03-23 10:41:57 - MainThread - INFO - 启动多线程合并，共 4 个分组，线程数 24
+2026-03-23 10:41:57 - MergeThread_0 - INFO - 开始合并分组：intestine.CG
+2026-03-23 10:41:57 - MergeThread_1 - INFO - 开始合并分组：kidney.CG
+2026-03-23 10:41:57 - MergeThread_2 - INFO - 开始合并分组：liver.CG
+2026-03-23 10:41:57 - MergeThread_3 - INFO - 开始合并分组：spleen.CG
+2026-03-23 10:58:24 - MainThread - INFO - ==================================================
+2026-03-23 10:58:24 - MainThread - INFO - 甲基化重复样本合并脚本（多线程+日志版）启动
+2026-03-23 10:58:24 - MainThread - INFO - 启动时间：2026-03-23 10:58:24
+2026-03-23 10:58:24 - MainThread - INFO - 输入目录：./methyl_bw
+2026-03-23 10:58:24 - MainThread - INFO - 输出目录：./merged_methyl_uniq
+2026-03-23 10:58:24 - MainThread - INFO - 染色体文件：/home/yaoxinw/workdir/project/11.nvwa/01.chidian/species_chrom_size.xls
+2026-03-23 10:58:24 - MainThread - INFO - 分辨率：10bp | 最小信号阈值：0.05
+2026-03-23 10:58:24 - MainThread - INFO - 并行线程数：24
+2026-03-23 10:58:24 - MainThread - INFO - ==================================================
+2026-03-23 10:58:24 - MainThread - INFO - 扫描到 36 个BW文件
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：intestine.CG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：intestine.CHG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：intestine.CHH → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：kidney.CG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：kidney.CHG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：kidney.CHH → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：liver.CG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：liver.CHG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：liver.CHH → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：spleen.CG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：spleen.CHG → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 有效分组：spleen.CHH → 3个重复
+2026-03-23 10:58:24 - MainThread - INFO - 分组汇总：总分组数12 | 有效分组12 | 无效分组0
+2026-03-23 10:58:24 - MainThread - INFO - 启动多线程合并，共 12 个分组，线程数 24
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：intestine.CG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：intestine.CHG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：intestine.CHH
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：kidney.CG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：kidney.CHG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：kidney.CHH
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：liver.CG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：liver.CHG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：liver.CHH
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：spleen.CG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：spleen.CHG
+2026-03-23 10:58:24 - MainThread - INFO - 开始合并分组：spleen.CHH
+2026-03-23 17:42:24 - MainThread - INFO - 分组 kidney.CG 合并成功：
+2026-03-23 17:42:24 - MainThread - INFO -   - BED文件：kidney.CG.bed
+2026-03-23 17:42:24 - MainThread - INFO -   - BW文件：kidney.CG.bw
+2026-03-23 17:42:24 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:44:23 - MainThread - INFO - 分组 intestine.CG 合并成功：
+2026-03-23 17:44:23 - MainThread - INFO -   - BED文件：intestine.CG.bed
+2026-03-23 17:44:23 - MainThread - INFO -   - BW文件：intestine.CG.bw
+2026-03-23 17:44:23 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:46:39 - MainThread - INFO - 分组 liver.CHH 合并成功：
+2026-03-23 17:46:39 - MainThread - INFO -   - BED文件：liver.CHH.bed
+2026-03-23 17:46:39 - MainThread - INFO -   - BW文件：liver.CHH.bw
+2026-03-23 17:46:39 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:48:32 - MainThread - INFO - 分组 liver.CG 合并成功：
+2026-03-23 17:48:32 - MainThread - INFO -   - BED文件：liver.CG.bed
+2026-03-23 17:48:32 - MainThread - INFO -   - BW文件：liver.CG.bw
+2026-03-23 17:48:32 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:48:54 - MainThread - INFO - 分组 spleen.CHH 合并成功：
+2026-03-23 17:48:54 - MainThread - INFO -   - BED文件：spleen.CHH.bed
+2026-03-23 17:48:54 - MainThread - INFO -   - BW文件：spleen.CHH.bw
+2026-03-23 17:48:54 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:49:22 - MainThread - INFO - 分组 spleen.CG 合并成功：
+2026-03-23 17:49:22 - MainThread - INFO -   - BED文件：spleen.CG.bed
+2026-03-23 17:49:22 - MainThread - INFO -   - BW文件：spleen.CG.bw
+2026-03-23 17:49:22 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:49:40 - MainThread - INFO - 分组 intestine.CHH 合并成功：
+2026-03-23 17:49:40 - MainThread - INFO -   - BED文件：intestine.CHH.bed
+2026-03-23 17:49:40 - MainThread - INFO -   - BW文件：intestine.CHH.bw
+2026-03-23 17:49:40 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 17:50:21 - MainThread - INFO - 分组 kidney.CHH 合并成功：
+2026-03-23 17:50:21 - MainThread - INFO -   - BED文件：kidney.CHH.bed
+2026-03-23 17:50:21 - MainThread - INFO -   - BW文件：kidney.CHH.bw
+2026-03-23 17:50:21 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 18:01:17 - MainThread - INFO - 分组 liver.CHG 合并成功：
+2026-03-23 18:01:17 - MainThread - INFO -   - BED文件：liver.CHG.bed
+2026-03-23 18:01:17 - MainThread - INFO -   - BW文件：liver.CHG.bw
+2026-03-23 18:01:17 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 18:01:34 - MainThread - INFO - 分组 intestine.CHG 合并成功：
+2026-03-23 18:01:34 - MainThread - INFO -   - BED文件：intestine.CHG.bed
+2026-03-23 18:01:34 - MainThread - INFO -   - BW文件：intestine.CHG.bw
+2026-03-23 18:01:34 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 18:02:49 - MainThread - INFO - 分组 spleen.CHG 合并成功：
+2026-03-23 18:02:49 - MainThread - INFO -   - BED文件：spleen.CHG.bed
+2026-03-23 18:02:49 - MainThread - INFO -   - BW文件：spleen.CHG.bw
+2026-03-23 18:02:49 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 18:05:35 - MainThread - INFO - 分组 kidney.CHG 合并成功：
+2026-03-23 18:05:35 - MainThread - INFO -   - BED文件：kidney.CHG.bed
+2026-03-23 18:05:35 - MainThread - INFO -   - BW文件：kidney.CHG.bw
+2026-03-23 18:05:35 - MainThread - INFO -   - 处理染色体数：25 | 处理区间数：113572634
+2026-03-23 18:05:35 - MainThread - INFO - ==================================================
+2026-03-23 18:05:35 - MainThread - INFO - 合并任务完成汇总：
+2026-03-23 18:05:35 - MainThread - INFO - 总分组数：12
+2026-03-23 18:05:35 - MainThread - INFO - 成功合并：12
+2026-03-23 18:05:35 - MainThread - INFO - 合并失败：0
+2026-03-23 18:05:35 - MainThread - INFO - 输出目录：./merged_methyl_uniq
+2026-03-23 18:05:35 - MainThread - INFO - 日志文件：merge_methyl_replicates.log
+2026-03-23 18:05:35 - MainThread - INFO - ==================================================
